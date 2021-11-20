@@ -1,0 +1,8 @@
+#background {
+  /*background-image: url(https://static.wikia.nocookie.net/dragonball/images/5/50/Wiki-background/revision/latest);*/
+  background-size: cover;
+  /*background-color: #7090df;*/
+  background-image: url("../img/Ninjala.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
