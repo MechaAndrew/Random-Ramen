@@ -10,9 +10,15 @@
   /* background-size: auto; */
   /* padding: 500px 100px; */
 }
+div#test {
+border: 3px solid #73AD21;
+position: relative;
+height: 500px;
+}
 
 #create{
-  background-color: #4CAF50;
+
+  /* background-color: #4CAF50;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -26,7 +32,9 @@
 
     left: 200px;
     width: 50px;
-    height: 50px;
+    height: 50px; */
+    position: relative;
+    top: 50px;
 
 }
 
@@ -43,31 +51,28 @@
 }
 
 div#history{
-/* border: 3px solid #73AD21; */
-width: 130px;
-height: 113px;
-  /* left: 10px;
-  top: 33px;
-  width: 130px;
-  height: 113px;
-  position: relative;
   border: 3px solid #73AD21;
-  display: inline;
-  box-sizing: content-box; */
+  position: absolute;
+  /* left: 1%; */
+  /* top: 1%; */
+  width: 10%;
+  height: 200px;
+
 
 }
 
 img#history{
-  width: 90%;
+  width: 100%;
+  /* position: relative; */
 }
 
 p#history{
 /* border: 3px solid #73AD21; */
-width: 78%;
-height: 150%;
-position: relative;
-top: -189%;
-left: 4.6%;
+width: 86%;
+height: 93%;
+position: absolute;
+top: -120%;
+left: 8%;
 display: inline-block;
 overflow: hidden;
 color: white;
@@ -76,9 +81,37 @@ overflow: scroll;
 
 }
 
-#health{
+div#health{
+  border: 3px solid #73AD21;
+  position: absolute;
+  left: 90%;
+  /* top: 10%; */
+  width: 10%;
+  height: 200px;
+
 
 }
+
+img#health{
+  width: 100%;
+  position: relative;
+}
+
+p#health{
+/* border: 3px solid #73AD21; */
+width: 86%;
+height: 93%;
+position: relative;
+top: -120%;
+left: 8%;
+display: inline-block;
+overflow: hidden;
+color: white;
+scroll-behavior: smooth;
+overflow: scroll;
+
+}
+
 
 /* width */
 ::-webkit-scrollbar {

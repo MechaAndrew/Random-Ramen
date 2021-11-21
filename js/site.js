@@ -47,8 +47,7 @@ function randomRamen(){
   randomToppings();
 }
 
-
-
+//----------------------------------------------------------------------------------------------------------------------
 //finds specific button elements and assigns them a variable
 
 // var createButton = document.getElementById("create");
@@ -62,6 +61,7 @@ var settingsButton = $("#settings");
 var creditsButton =$("#credits");
 
 var history = $("#history p");
+var health = $("#health p");
 
 //adds event listener for click of oneButton
 
@@ -70,4 +70,5 @@ randomButton.click(function() {});
 settingsButton.click(function() {});
 creditsButton.click(function() {});
 
-$("#history p").html("This shit bussin up my ass. history shit gamin boyys. the fitner gram pacer test is a multi areobic penis. where my cock and balls are filled to the nrim")
+$("#history p").html("This shit bussin up my ass. history shit gamin boyys. the fitner gram pacer test is a multi areobic penis. where my cock and balls are filled to the nrim but where at though coc kand ball torture to fill my cum of glaze")
+$("#health p").html("This shit bussin up my ass. history shit gamin boyys. the fitner gram pacer test is a multi areobic penis. where my cock and balls are filled to the nrim but where at though coc kand ball torture to fill my cum of glaze")
