@@ -70,7 +70,7 @@ p#history{
 /* border: 3px solid #73AD21; */
 width: 86%;
 height: 93%;
-position: absolute;
+position: relative;
 top: -120%;
 left: 8%;
 display: inline-block;
