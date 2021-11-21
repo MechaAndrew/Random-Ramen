@@ -51,19 +51,23 @@ function randomRamen(){
 
 //finds specific button elements and assigns them a variable
 
-var createButton = document.getElementById("create");
-var randomButton = document.getElementById("random");
-var settingsButton = document.getElementById("settings");
-var creditsButton = document.getElementById("credits");
+// var createButton = document.getElementById("create");
+// var randomButton = document.getElementById("random");
+// var settingsButton = document.getElementById("settings");
+// var creditsButton = document.getElementById("credits");
 
-var history = document.getElementById("p#history");
+var createButton = $("#create");
+var randomButton = $("#random");
+var settingsButton = $("#settings");
+var creditsButton =$("#credits");
+
+var history = $("#history p");
 
 //adds event listener for click of oneButton
 
-createButton.addEventListener("click", function() {})
-randomButton.addEventListener("click", function() {})
-settingsButton.addEventListener("click", function() {})
-creditsButton.addEventListener("click", function() {})
+createButton.click(function() {});
+randomButton.click(function() {});
+settingsButton.click(function() {});
+creditsButton.click(function() {});
 
-
-document.getElementById("history").append("Helolo");
+$("#history p").html("This shit bussin up my ass. history shit gamin boyys. the fitner gram pacer test is a multi areobic penis. where my cock and balls are filled to the nrim")

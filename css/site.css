@@ -43,7 +43,7 @@
 }
 
 div#history{
-border: 3px solid #73AD21;
+/* border: 3px solid #73AD21; */
 width: 130px;
 height: 113px;
   /* left: 10px;
@@ -62,19 +62,42 @@ img#history{
 }
 
 p#history{
-border: 3px solid #73AD21;
-/* display: inline; */
-  /* left: 10px;
-  top: 33px;
-  width: 130px;
-  height: 113px;
-  position: relative;
-  border: 3px solid #73AD21;
-  display: inline;
-  box-sizing: content-box; */
+/* border: 3px solid #73AD21; */
+width: 78%;
+height: 150%;
+position: relative;
+top: -189%;
+left: 4.6%;
+display: inline-block;
+overflow: hidden;
+color: white;
+scroll-behavior: smooth;
+overflow: scroll;
 
 }
 
 #health{
 
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
 }
