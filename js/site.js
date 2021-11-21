@@ -56,9 +56,14 @@ var randomButton = document.getElementById("random");
 var settingsButton = document.getElementById("settings");
 var creditsButton = document.getElementById("credits");
 
+var history = document.getElementById("p#history");
+
 //adds event listener for click of oneButton
 
 createButton.addEventListener("click", function() {})
 randomButton.addEventListener("click", function() {})
 settingsButton.addEventListener("click", function() {})
 creditsButton.addEventListener("click", function() {})
+
+
+document.getElementById("history").append("Helolo");

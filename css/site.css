@@ -2,14 +2,31 @@
   /*background-image: url(https://static.wikia.nocookie.net/dragonball/images/5/50/Wiki-background/revision/latest);*/
   /*background-image: url(https://vvnzheng.github.io/art101/lab10/index.html);*/
 
-  background-image: url("../img/ramenShopBGcopy.png");
+  background-image: url("../img/ramenShopBG.png");
+  /* background-image: url("../img/ramenShopBGtable.png"); */
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   /* background-size: auto; */
   /* padding: 500px 100px; */
 }
 
 #create{
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px;
+    cursor: pointer;
+    position: relative;
+
+    left: 200px;
+    width: 50px;
+    height: 50px;
 
 }
 
@@ -22,5 +39,42 @@
 }
 
 #credits{
+
+}
+
+div#history{
+border: 3px solid #73AD21;
+width: 130px;
+height: 113px;
+  /* left: 10px;
+  top: 33px;
+  width: 130px;
+  height: 113px;
+  position: relative;
+  border: 3px solid #73AD21;
+  display: inline;
+  box-sizing: content-box; */
+
+}
+
+img#history{
+  width: 90%;
+}
+
+p#history{
+border: 3px solid #73AD21;
+/* display: inline; */
+  /* left: 10px;
+  top: 33px;
+  width: 130px;
+  height: 113px;
+  position: relative;
+  border: 3px solid #73AD21;
+  display: inline;
+  box-sizing: content-box; */
+
+}
+
+#health{
 
 }
