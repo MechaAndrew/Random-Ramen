@@ -50,7 +50,7 @@ button#create{
 div#random{
 border: 3px solid #73AD00;
 display: inline;
-background-image: url("../img/Flap1.png");
+background-image: url("../img/Flap2.png");
 background-repeat: no-repeat;
 background-size: contain;
 top: 10px;
@@ -78,12 +78,35 @@ button#random{
 
 }
 
+div#reset{
+border: 3px solid #73AD00;
+display: inline;
+background-image: url("../img/Flap3.png");
+background-repeat: no-repeat;
+background-size: contain;
+top: 10px;
+left: 40%;
+width: 105px;
+height: 220px;
+position: absolute;
 
 
-#settings{
-  position: relative;
-  top: 100px;
-  left: 200px;
+}
+button#reset{
+  /* background-color: #4CAF50; */
+  background-color: transparent;
+
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    width: 105px;
+    height: 220px;
+
 }
 
 #credits{
@@ -91,6 +114,42 @@ button#random{
   top: 100px;
   left: 250px;
 }
+
+div#output{
+border: 3px solid #73AD00;
+background-image: url("../img/emptyRamenBowl.png");
+background-repeat: no-repeat;
+background-size: contain;
+top: 400px;
+left: 40%;
+width: 200px;
+height: 160px;
+position: fixed;
+/* position: absolute; */
+}
+
+img.noodle{
+  width: 100%;
+  /* top: 10px; */
+  /* transform: translate(0px, -10px); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  /* z-index: 0; */
+}
+
+img.topping{
+  width: 40%;
+  /* top: 10px; */
+  /* transform: translate(0px, -10px); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  /* z-index: 0; */
+}
+
 
 div#history{
   /* border: 3px solid #73AD00; */
@@ -106,13 +165,6 @@ div#history{
   /* padding: 5px 6px; */
 
 }
-
-/* img#history{
-  width: 100%;
-  top: 10px;
-  transform: translate(0px, -10px);
-  position: relative;
-} */
 
 p#history{
 /* border: 3px solid #73AD21; */
