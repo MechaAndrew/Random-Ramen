@@ -21,7 +21,7 @@ function randomBroth(){
 
 //randomly pick a ramen noodle type
 function randomNoodle(){
-  $(".noodle").css("visibility", "hidden");
+
   mod = Math.floor(Math.random() * (4-1)) + 1;
   console.log(Math.floor(Math.random() * (4-1)) + 1);
   if (mod == 1) {
@@ -37,15 +37,15 @@ $("#noodle3").css("visibility", "visible");
 
 //randomly pick the number of toppings
 function toppingNumber(){
-  Math.floor(Math.random() *4) + 1;
+  mod = Math.floor(Math.random() *3) + 1;
   if (mod == 1) {
-
+    return 1;
   }
   else if (mod == 2) {
-
+   return 2;
   }
   else if (mod == 2) {
-
+    return 3;
   }
   else if (mod == 3) {
 
@@ -59,11 +59,12 @@ function toppingNumber(){
 
 }
   //randomly pick the topings
-function randomToppings(){
-  
-  $(".topping").css("visibility", "hidden");
+function randomToppings(numbers){
+
+  for(i=0; i<=numbers; i++) {
   mod = Math.floor(Math.random() * (4-1)) + 1;
   console.log(Math.floor(Math.random() * (4-1)) + 1);
+  //implement a way so the toppings aren't repeated
   if (mod == 1) {
   $("#topping1").css("visibility", "visible");
   }
@@ -72,17 +73,20 @@ function randomToppings(){
   }
   else if (mod == 3) {
   $("#topping3").css("visibility", "visible");
-  }
-}
+}//end else if
+  }//end for
+}//end Functions
 
 function randomRamen(){
+  $(".noodle").css("visibility", "hidden");
+  $(".topping").css("visibility", "hidden");
   // randomBroth();
 
   randomNoodle();
 
   // toppingNumber();
 
-  randomToppings();
+  randomToppings(toppingNumber());
 }
 
 //----------------------------------------------------------------------------------------------------------------------
@@ -115,6 +119,7 @@ $("#random button").click(function () {
 
 resetButton.click(function() {
 $(".noodle").css("visibility", "hidden");
+$(".topping").css("visibility", "hidden");
 
 });
 //no need for a reset button. What else can we make the banner be?

@@ -150,6 +150,14 @@ img.topping{
   /* z-index: 0; */
 }
 
+img#topping1{
+  left: 100px;
+}
+
+img#topping2{
+  left: 50px;
+}
+
 
 div#history{
   /* border: 3px solid #73AD00; */
