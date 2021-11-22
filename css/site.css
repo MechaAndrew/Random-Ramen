@@ -58,27 +58,33 @@ height: 500px;
 }
 
 div#history{
-  /* border: 3px solid #73AD21; */
+  /* border: 3px solid #73AD00; */
   position: absolute;
   /* left: 1%; */
-  /* top: 1%; */
-  width: 10%;
-  height: 200px;
+  top: 10px;
+  width: 120px;
+  height: 220px;
+  background-image: url("../img/ramenShopLantern.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 
+  /* padding: 5px 6px; */
 
 }
 
-img#history{
+/* img#history{
   width: 100%;
-  /* position: relative; */
-}
+  top: 10px;
+  transform: translate(0px, -10px);
+  position: relative;
+} */
 
 p#history{
 /* border: 3px solid #73AD21; */
 width: 86%;
-height: 93%;
-position: relative;
-top: -120%;
+height: 180px;
+position: absolute;
+/* top: 10%; */
 left: 8%;
 display: inline-block;
 overflow: hidden;
@@ -88,28 +94,42 @@ overflow: scroll;
 
 }
 
-div#health{
-  /* border: 3px solid #73AD21; */
+/* div#health{
+  border: 3px solid #73AD21;
   position: absolute;
   left: 90%;
-  /* top: 10%; */
+  top: 10%;
   width: 10%;
   height: 200px;
 
 
-}
+} */
 
-img#health{
-  width: 100%;
-  position: relative;
+div#health{
+  border: 3px solid #73AD00;
+  position: absolute;
+  right: 0%;
+  /* left:90%; */
+  top: 10px;
+  width: 120px;
+  height: 220px;
+  background-image: url("../img/ramenShopLantern.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* padding: 5px 6px; */
+
+
+
+
 }
 
 p#health{
 /* border: 3px solid #73AD21; */
 width: 86%;
-height: 93%;
-position: relative;
-top: -120%;
+height: 180px;
+position: absolute;
+/* top: 10%; */
 left: 8%;
 display: inline-block;
 overflow: hidden;
@@ -118,7 +138,6 @@ scroll-behavior: smooth;
 overflow: scroll;
 
 }
-
 
 /* width */
 ::-webkit-scrollbar {
