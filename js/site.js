@@ -37,24 +37,21 @@ $("#noodle3").css("visibility", "visible");
 
 //randomly pick the number of toppings
 function toppingNumber(){
-  mod = Math.floor(Math.random() *3) + 1;
+  mod = Math.floor(Math.random() *29) + 1;
   if (mod == 1) {
     return 1;
-  }
-  else if (mod == 2) {
-   return 2;
-  }
-  else if (mod == 2) {
+  }  else if (mod == 2) {
+    return 2;
+  }  else if (mod == 3) {
     return 3;
-  }
-  else if (mod == 3) {
-
-  }
-  else if (mod == 4) {
-
-  }
-  else if (mod == 5) {
-
+  }  else if (mod == 4) {
+    return 4;
+  }  else if (mod == 5) {
+    return 5;
+  }  else if (mod == 6) {
+    return 6;
+  }  else if (mod == 7) {
+    return 7;
   }
 
 }
