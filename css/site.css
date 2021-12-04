@@ -1,15 +1,56 @@
 #background {
   /*background-image: url(https://static.wikia.nocookie.net/dragonball/images/5/50/Wiki-background/revision/latest);*/
   /*background-image: url(https://vvnzheng.github.io/art101/lab10/index.html);*/
+  background-image: url("../img/BGMerge.png");
+  position: relative;
 
-  background-image: url("../img/ramenShopBG.png");
   /* background-image: url("../img/ramenShopBGtable.png"); */
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  /* position: fixed; */
   /* background-size: auto; */
   /* padding: 500px 100px; */
 }
+
+/* .background {
+  object-fit: fill;
+  position: absolute;
+
+} */
+
+img.building{
+  border: 3px solid #73AD00;
+  /* background-image: url("../img/Ramenshop.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+
+  /* height: 200px; */
+  /* width: 300px; */
+  left: 35%;
+  display: block;
+ max-width:500px;
+ max-height:595px;
+ width: auto;
+ margin-left: auto;
+  margin-right: auto;
+ height: auto;
+  /* transform: translate(15%, 30%); */
+
+
+  /* margin: auto; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+ /* width: 60%; */
+ /* padding: 10px; */
+
+  position: absolute;
+
+}
+
+
+
+
+
 div#test {
 border: 3px solid #73AD21;
 position: relative;
