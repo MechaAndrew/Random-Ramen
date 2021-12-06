@@ -331,6 +331,30 @@ margin-top: 48px;
 
 }
 
+img#lantern1 {
+  top: 15%;
+    left: 18%;
+  position: absolute;
+
+  display: block;
+  resize: both;
+  margin: auto;
+  margin-top: 48px;
+  z-index: 2;
+}
+
+img#lantern2 {
+  top: 15%;
+    left: 74%;
+  position: absolute;
+
+  display: block;
+  resize: both;
+  margin: auto;
+  margin-top: 48px;
+  z-index: 2;
+}
+
 img.noodle{
   width: 100%;
   /* top: 10px; */
