@@ -47,7 +47,7 @@ button#create{
     background-repeat: no-repeat;
     background-size: contain;
     top: 19%;
-    left: 31%;
+    left: 30%;
     width: 5.5%;
     height: 24%;
     position: absolute;
@@ -71,7 +71,7 @@ button#random{
     background-repeat: no-repeat;
     background-size: contain;
     top: 19%;
-    left: 47%;
+    left: 45%;
     width: 5.5%;
     height: 24%;
     position: absolute;
@@ -95,7 +95,7 @@ button#reset{
     background-repeat: no-repeat;
     background-size: contain;
     top: 19%;
-    left: 64%;
+    left: 65%;
     width: 5.5%;
     height: 24%;
     position: absolute;
@@ -148,13 +148,14 @@ img#topping2{
 
 
 div#history{
-  border: 3px solid #73AD00;
+  /* border: 3px solid #73AD00; */
+  border: transparent;
   position: absolute;
   /* left: 1%; */
-  top: 19%;
-  left: 14%;
-  width: 10vh;
-  height: 10vh;
+  top: 5%;
+  left: 12%;
+  width: 12%;
+  height: 85%;
   position: absolute;
   /* width: 120px;
   height: 600px; */
@@ -162,17 +163,17 @@ div#history{
   background-repeat: no-repeat;
   background-size: contain;
 
-  /* padding: 5px 6px; */
-
 }
 
 p#history{
 /* border: 3px solid #73AD21; */
-width: 86%;
-height: 180px;
+border: transparent;
+width: 67%;
+height: 62%;
 position: absolute;
-/* top: 10%; */
-left: 8%;
+top: 3%;
+left: 2%;
+/* left: 8%; */
 display: inline-block;
 overflow: hidden;
 color: white;
@@ -181,12 +182,47 @@ overflow: scroll;
 
 }
 
-
 div#health{
   /* border: 3px solid #73AD00; */
+  border: transparent;
+  position: absolute;
+  /* left: 1%; */
+  top: 5%;
+  right: 9%;
+  width: 12%;
+  height: 85%;
+  position: absolute;
+  /* width: 120px;
+  height: 600px; */
+  background-image: url("../img/HealthBanner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+p#health{
+/* border: 3px solid #73AD21; */
+border: transparent;
+width: 67%;
+height: 62%;
+position: absolute;
+top: 3%;
+left: 20%;
+/* left: 8%; */
+display: inline-block;
+overflow: hidden;
+color: white;
+scroll-behavior: smooth;
+overflow: scroll;
+
+}
+
+/*
+div#health{
+  border: 3px solid #73AD00;
   position: absolute;
   right: 0%;
-  /* left:90%; */
+  left:90%;
   top: 10px;
   width: 120px;
   height: 220px;
@@ -194,28 +230,28 @@ div#health{
   background-repeat: no-repeat;
   background-size: contain;
 
-  /* padding: 5px 6px; */
+  padding: 5px 6px;
 
 
 
 
-}
+} */
 
-p#health{
-/* border: 3px solid #73AD21; */
+/* p#health{
+border: 3px solid #73AD21;
 width: 86%;
 height: 180px;
 position: absolute;
-/* top: 10%; */
+top: 10%;
 left: 8%;
 display: inline-block;
 overflow: hidden;
 color: white;
 scroll-behavior: smooth;
 overflow: scroll;
-}
+} */
 
-+img#topping3{
+img#topping3{
   left: 100px;
 }
 
