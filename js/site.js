@@ -47,6 +47,11 @@
                     nanohana]
 var noodles = [ramen, udon, soba]
 var facts = "Dish Facts<br>";
+var tonkotsufacts = "Tonkotsu:<br>Cholesterol: 249mg<br>Total Fat 22g<br>Sodium:1249mg<br>";
+var misofacts = "Miso:<br>Cholesterol: 283mg<br>Total Fat 16g<br>Sodium:1820mg<br>";
+var shoyufacts = "Shoyu:<br>Cholesterol: 25mg<br>Total Fat 8g<br>Sodium:1850mg<br>";
+var nutrition = [shoyufacts, misofacts, tonkotsufacts];
+var soupfacts = "";
 //Functions:
 
 //Randomly choose which broth
@@ -54,6 +59,7 @@ function randomBroth(){
   mod = Math.floor(Math.random() * 2) + 1;
 $("#broth" + mod).css("visibility", "visible");
 facts += broths[mod-1];
+soupfacts += nutrition[mod-1];
 console.log(facts);
 }
 
@@ -106,8 +112,10 @@ function randomRamen(){
 
   randomToppings(toppingNumber());
   randomBroth();
-  $("#history p").html(facts)
+  $("#history p").html(facts);
+  $("#health p").html(soupfacts);
   facts = "Dish Facts<br>";
+   soupfacts = "Health Facts<br>";
   $("#output").css("transform", "scale(1.5)");
 
 }
@@ -145,8 +153,10 @@ $(".noodle").css("visibility", "hidden");
 $(".broth").css("visibility", "hidden");
 $(".topping").css("visibility", "hidden");
 $("#history p").html("Dish Facts<br>");
+$("#health p").html("Health Facts<br>");
 facts = "Dish Facts<br>";
+soupfacts = "Health Facts<br>";
 $("#output").css("transform", "scale(1)");
 });
-//no need for a reset button. What else can we make the banner be?
+
 creditsButton.click(function() {});
