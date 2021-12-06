@@ -345,36 +345,55 @@ img#lantern2 {
 }
 
 div#output{
-/* border: 3px solid #73AD00; */
+
+z-index: 6;
 background-image: url("../img/bowl_1.png");
 background-repeat: no-repeat;
-background-size: contain;
-top: 300px;
-left: 44.5%;
-width: 200px;
-height: 160px;
-position: fixed;
+background-size: cover;
+background-position: center;
+border: 3px solid #fbda6f;
+
+top: 40%;
+left: 43%;
+width: 12.8%;
+height: 22%;
+
+position: absolute;
+
+/* display: block; */
+resize: both;
+margin: auto;
+/* margin-top: 23%; */
+
+/* border: transparent; */
+
+position: absolute;
+
+
+
 /* position: absolute; */
 }
 
 img.noodle{
-  width: 100%;
-  /* top: 10px; */
-  /* transform: translate(0px, -10px); */
+  width: 102%;
+  height: auto;
+margin: auto;
+  top: -7%;
+  /* transform: translate(0px, -20%); */
   position: absolute;
-  top: -30px;
-  left: -20px;
+/* padding: 10px; */
   visibility: hidden;
   /* z-index: 0; */
 }
 
 img.broth{
   width: 100%;
-  /* top: 10px; */
-  /* transform: translate(0px, -10px); */
+  height: auto;
+margin: auto;
+  /* transform: translate(0px, -20%); */
   position: absolute;
-  top: -30px;
-  left: -20px;
+  top: -5%;
+  /* left: -20px; */
   visibility: hidden;
   /* z-index: 0; */
 }
