@@ -102,8 +102,8 @@ function randomRamen(){
 // var settingsButton = document.getElementById("settings");
 // var creditsButton = document.getElementById("credits");
 
-var createButton = $("#create button");
-var randomButton = $("#random button");
+var createButton = $("#create");
+var randomButton = $("#random");
 var resetButton = $("#reset");
 var creditsButton =$("#credits");
 
@@ -116,7 +116,7 @@ var health = $("#health p");
 
 createButton.click(function() {});
 
-$("#random button").click(function () {
+$("#random").click(function () {
   randomRamen();
 }
 );//end function
