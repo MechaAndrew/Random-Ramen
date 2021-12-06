@@ -16,14 +16,14 @@
 
 
 .layout{
-  border: 3px solid #73AD77;
+  /* border: 3px solid #73AD77; */
   padding-top:  2%;
   padding-left: 4%;
   padding-right: 4%;
 }
 
 img.building{
-  border: 3px solid #73AD00;
+  /* border: 3px solid #73AD00; */
   display: block;
   resize: both;
   position: relative;
