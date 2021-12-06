@@ -108,6 +108,7 @@ function randomRamen(){
   randomBroth();
   $("#history p").html(facts)
   facts = "Dish Facts<br>";
+  $("#output").css("transform", "scale(1.5)");
 
 }
 
@@ -143,7 +144,9 @@ resetButton.click(function() {
 $(".noodle").css("visibility", "hidden");
 $(".broth").css("visibility", "hidden");
 $(".topping").css("visibility", "hidden");
+$("#history p").html("Dish Facts<br>");
 facts = "Dish Facts<br>";
+$("#output").css("transform", "scale(1)");
 });
 //no need for a reset button. What else can we make the banner be?
 creditsButton.click(function() {});

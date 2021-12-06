@@ -321,14 +321,14 @@ button#placeholder{
 }
 
 img#lantern1 {
-  top: 15%;
+  top: 20%;
     left: 18%;
   position: absolute;
 
   display: block;
   resize: both;
   margin: auto;
-  margin-top: 48px;
+  /* margin-top: 2%; */
   z-index: 2;
 }
 
@@ -513,121 +513,123 @@ overflow: scroll;
 
 
 img#topping1{
-  top: 45px;
-  left: 40px;
+  top: 35%;
+  left: 24%;
 }
 img#topping2{
-  top: 40px;
-  left: 50px;
+  top: 45%;
+  left: 30%;
 }
 img#topping3{
-  top: 40px;
+  top: 30%;
+  left: 37%;
 }
 img#topping4{
-  top: 40px;
-  left: 56px;
+  top: 50%;
+  left: 26%;
 }
 img#topping5{
-  top: 45px;
-  left: 59px;
+  top: 30%;
+  left: 40%;
 }
 img#topping6{
   top: 50px;
   left: 35px;
 }
 img#topping7{
-  top: 40px;
-  left: 50px;
+  top: 45%;
+  left: 30%;
 }
 img#topping8{
-  top: 50px;
-  left: 45px;
+  top: 35%;
+  left: 24%;
 }
 img#topping9{
-  top: 40px;
-  left: 40px;
+  top: 50%;
+  left: 20%;
 }
 img#topping10{
-  top: 40px;
-  left: 55px;
+  top: 30%;
+  left: 45%;
 }
 img#topping11{
-  top: 45px;
-  left: 38px;
+  top: 45%;
+  left: 24%;
 }
 img#topping12{
-  top: 40px;
-  left: 59px;
+  top: 45%;
+  left: 40%;
 }
 img#topping13{
-  top: 50px;
-  left: 48px;
+  top: 30%;
+  left: 30%;
 }
 img#topping14{
-  top: 50px;
-  left: 53px;
+  top: 45%;
+  left: 24%;
 }
 img#topping15{
-  top: 40px;
-  left: 43px;
+  top: 35%;
+  left: 40%;
 }
 img#topping16{
-  top: 45px;
-  left: 52px;
+  top: 50%;
+  left: 20%;
 }
 img#topping17{
-  top: 40px;
-  left: 55px;
+  top: 45%;
+  left: 24%;
 }
 img#topping18{
-  top: 40px;
-  left: 44px;
+  top: 45%;
+  left: 24%;
 }
 img#topping19{
-  top: 40px;
-  left: 43px;
+  top: 30%;
+  left: 30%;
 }
 img#topping20{
-  top: 40px;
-  left: 32px;
+  top: 35%;
+  left: 40%;
 }
 img#topping21{
-  top: 45px;
-  left: 47px;
+  top: 45%;
+  left: 24%;
 }
 img#topping22{
-  top: 40px;
-  left: 41px;
+  top: 45%;
+  left: 24%;
 }
 img#topping23{
-  top: 50px;
-  left: 59px;
+  top: 50%;
+  left: 20%;
 }
 img#topping24{
-  top: 55px;
-  left: 51px;
+  top: 45%;
+  left: 24%;
 }
 img#topping25{
-  top: 40px;
-  left: 49px;
+  top: 35%;
+  left: 30%;
 }
 img#topping26{
-  top: 55px;
-  left: 34px;
+  top: 35%;
+  left: 24%;
 }
 img#topping27{
-  top: 50px;
-  left: 40px;
+  top: 45%;
+  left: 20%;
 }
 img#topping28{
-  top: 45px;
-  left: 63px;
+  top: 35%;
+  left: 24%;
 }
 
 /* width */
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 2px;
   height: 0px;
+  background: transparent;
 }
 
 /* Track */
@@ -635,16 +637,17 @@ img#topping28{
   box-shadow: inset 0 0 0px grey;
   border-radius: 0px;
   width: 0px;
+  background: transparent;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  /* background: red; */
-  border-radius: 0px;
-  width: 0px;
+  background: yellow;
+  border-radius: 2px;
+  width: 2px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  /* background: #b30000; */
+  background: transparent;
 }
