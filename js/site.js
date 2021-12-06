@@ -39,7 +39,7 @@ $("#noodle3").css("visibility", "visible");
 
 //randomly pick the number of toppings
 function toppingNumber(){
-  mod = Math.floor(Math.random() *29) + 1;
+  mod = Math.floor(Math.random() *5) + 1;
   if (mod == 1) {
     return 1;
   }  else if (mod == 2) {
@@ -69,8 +69,17 @@ function randomToppings(numbers){
   }
   else if (mod == 3) {
   $("#topping3").css("visibility", "visible");
-}//end else if
-  }//end for
+  }
+  else if (mod == 4){
+  $("#topping4").css("visibility", "visible");
+  }
+  else if (mod == 5){
+  $("#topping5").css("visibility", "visible");
+  }
+  else if (mod == 6){
+  $("#topping3").css("visibility", "visible");
+  }//end else if
+}//end for
 }//end Functions
 
 function randomRamen(){
