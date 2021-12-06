@@ -93,8 +93,18 @@ button#create{
   /* background-color: #4CAF50; */
   background-color: transparent;
     border: none;
-    color: white;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
     text-align: center;
+
+    -webkit-text-stroke: 1px #fbda6f;
+       color: white;
+       text-shadow:
+           2px 1px 0 #000,
+         -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+           1px 1px 0 #000;
     text-decoration: none;
     display: inline-block;
     font-size: 1vw;
@@ -117,8 +127,18 @@ button#random{
   /* background-color: #4CAF50; */
   background-color: transparent;
     border: none;
-    color: white;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
     text-align: center;
+
+    -webkit-text-stroke: 1px #fbda6f;
+       color: white;
+       text-shadow:
+           2px 1px 0 #000,
+         -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+           1px 1px 0 #000;
     text-decoration: none;
     display: inline-block;
     font-size: 1vw;
@@ -141,8 +161,18 @@ button#reset{
   /* background-color: #4CAF50; */
   background-color: transparent;
     border: none;
-    color: white;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
     text-align: center;
+
+    -webkit-text-stroke: 1px #fbda6f;
+       color: white;
+       text-shadow:
+           2px 1px 0 #000,
+         -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+           1px 1px 0 #000;
     text-decoration: none;
     display: inline-block;
     font-size: 1vw;
