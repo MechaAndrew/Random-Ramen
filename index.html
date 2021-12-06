@@ -10,8 +10,12 @@
 
 	<link rel="icon" type="image/png" href="img/Lantern.png">
 	<link rel="stylesheet" href="css/site.css">
-	<script src="js/site.js" defer></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">	<script src="js/site.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
 
 	<!-- https://wmodes.github.io/art101/ -->
 	<!--https://mechaandrew.github.io/Random-Ramen/-->
@@ -25,18 +29,16 @@
 
 			<body>
 					<div class="layout">
-						<img class="building mx-auto d-block" src="img/mainStand.png" alt="">
+						<div id="history">
+							<p id="history">Dish Facts</p>
+							</div>
 
-							<div id="history">
-								<p id="history">History facts</p>
+
+								<div id="health">
+									<p id="health">Health facts</p>
 								</div>
-
-
-									<div id="health">
-										<p id="health">Health facts</p>
-									</div>
-
-
+				<div class="shop">
+						<img class="building mx-auto d-block" src="img/mainStand.png" alt="">
 
 								<button id="create">Create </button>
 
@@ -45,8 +47,15 @@
 								<button id="reset">reset </button>
 
 
-	</div>
+
 								<div id=output>
+
+									<!-- <img src="img/emptyRamenBowl.png" class="ramenBowl" > -->
+									<!-- <img src="img/sign.png" id="sign" class="sign"> -->
+								<img src="img/broth_1.png" id="broth1" class="broth">
+								<img src="img/broth_2.png" id="broth2" class="broth">
+								<img src="img/broth_3.png" id="broth3" class="broth">
+
 									<img src="img/noodle1.png" id="noodle1" class="noodle">
 									<img src="img/noodle2.png" id="noodle2" class="noodle">
 									<img src="img/noodle3.png" id="noodle3" class="noodle">
@@ -80,27 +89,9 @@
 									<img src="img/spinach.png" id="topping27" class="topping">
 									<img src="img/takanazuke.png" id="topping28" class="topping">
 
-
-
-
-
 								</div>
 
-
-
-
-
-
-									<!-- <button id="random"> Random </button>
-
-
-									<button id="settings"> Settings </button>
-
-
-									<button id="credits"> Credits </button> -->
-
-
-
-			</body>
+							</div>
+						</div>
 </body>
 </html>

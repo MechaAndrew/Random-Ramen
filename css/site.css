@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'a_asian_hiroregular';
+    src: url('aasianhiro-vmv3l2-webfont.woff2') format('woff2'),
+         url('aasianhiro-vmv3l2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'a_asian_hirocyr';
+    src: url('aasianhirocyr-vgjvz2-webfont.woff2') format('woff2'),
+         url('aasianhirocyr-vgjvz2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 #background {
   /*background-image: url(https://static.wikia.nocookie.net/dragonball/images/5/50/Wiki-background/revision/latest);*/
   /*background-image: url(https://vvnzheng.github.io/art101/lab10/index.html);*/
@@ -54,11 +71,13 @@
 
 
 .layout{
-  /* border: 3px solid #73AD77; */
+  border: 3px solid #73AD77;
   padding-top:  2%;
   padding-left: 4%;
   padding-right: 4%;
 }
+
+
 
 img.building{
   /* border: 3px solid #73AD00; */
@@ -142,14 +161,13 @@ button#reset{
 
 }
 
-
 div#output{
 border: 3px solid #73AD00;
-background-image: url("../img/emptyRamenBowl.png");
+background-image: url("../img/bowl_1.png");
 background-repeat: no-repeat;
 background-size: contain;
-top: 400px;
-left: 40%;
+top: 300px;
+left: 44.5%;
 width: 200px;
 height: 160px;
 position: fixed;
@@ -161,8 +179,19 @@ img.noodle{
   /* top: 10px; */
   /* transform: translate(0px, -10px); */
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -30px;
+  left: -20px;
+  visibility: hidden;
+  /* z-index: 0; */
+}
+
+img.broth{
+  width: 100%;
+  /* top: 10px; */
+  /* transform: translate(0px, -10px); */
+  position: absolute;
+  top: -30px;
+  left: -20px;
   visibility: hidden;
   /* z-index: 0; */
 }
@@ -178,27 +207,36 @@ img.topping{
   /* z-index: 0; */
 }
 
-img#topping1{
-  left: 100px;
+/* div#output{
+border: 3px solid #73AD77;
+top: 60hz;
+left: 45%;
+width: 10%;
+height: 15%;
 }
 
-img#topping2{
-  left: 50px;
-}
+.ramenBowl {
+  /* border: 3px solid #73AD77; */
+  /* width: 100%; */
+  /* top: 10px; */
+  /* transform: translate(0px, -10px); */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+/* }  */
 
 
 div#history{
-  /* border: 3px solid #73AD00; */
+
   border: transparent;
   position: absolute;
-  /* left: 1%; */
+
   top: 5%;
   left: 5%;
   width: 12%;
   height: 85%;
   position: absolute;
-  /* width: 120px;
-  height: 600px; */
+
   background-image: url("../img/HistoryBanner.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -206,34 +244,42 @@ div#history{
 }
 
 p#history{
-/* border: 3px solid #73AD21; */
-/* border: transparent; */
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+text-align: center;
+
+-webkit-text-stroke: 1px #fbda6f;
+   color: white;
+   text-shadow:
+       2px 1px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
 width: 70%;
 height: 58%;
 position: absolute;
 top: 3%;
-left: 7%;
-/* left: 8%; */
+left: 5%;
+
 display: inline-block;
 overflow: hidden;
-color: white;
 scroll-behavior: smooth;
 overflow: scroll;
 
 }
 
 div#health{
-  /* border: 3px solid #73AD00; */
+
   border: transparent;
-  position: absolute;
-  /* left: 1%; */
+
   top: 5%;
   right: 3%;
   width: 12%;
   height: 85%;
   position: absolute;
-  /* width: 120px;
-  height: 600px; */
+
   background-image: url("../img/HealthBanner.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -241,8 +287,19 @@ div#health{
 }
 
 p#health{
-/* border: 3px solid #73AD21; */
-/* border: transparent; */
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  text-align: center;
+
+  -webkit-text-stroke: 1px #fbda6f;
+     color: white;
+     text-shadow:
+         2px 1px 0 #000,
+       -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+
 width: 68%;
 height: 55%;
 position: absolute;
@@ -256,6 +313,15 @@ overflow: scroll;
 
 }
 
+
+
+img#topping1{
+  left: 100px;
+}
+
+img#topping2{
+  left: 50px;
+}
 
 img#topping3{
   left: 100px;
