@@ -78,7 +78,7 @@ function randomToppings(numbers){
 }//end for
 console.log(facts)
 $("#history p").html(facts)
-facts = "";
+facts = "Dish Facts<br>";
 }//end Functions
 
 function randomRamen(){
@@ -128,7 +128,8 @@ resetButton.click(function() {
 $(".noodle").css("visibility", "hidden");
 $(".broth").css("visibility", "hidden");
 $(".topping").css("visibility", "hidden");
-$("#history p").html("");
+$("#history p").html("Dish Facts<br>");
+$("#health p").html("Health Facts<br>");
 });
 //no need for a reset button. What else can we make the banner be?
 creditsButton.click(function() {});
