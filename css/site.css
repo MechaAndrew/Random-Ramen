@@ -106,6 +106,16 @@ img.building{
   width: 65%;
 }
 
+img.luckyCat {
+  width: 6%;
+  height: auto;
+  position: absolute;
+  margin-top: 20%;
+  margin: auto;
+  top: 42%;
+  left: 28%;
+}
+
 button#create{
   /* background-color: #4CAF50; */
   background-color: transparent;
