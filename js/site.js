@@ -69,8 +69,17 @@ function randomToppings(numbers){
   }
   else if (mod == 3) {
   $("#topping3").css("visibility", "visible");
-}//end else if
-  }//end for
+  }
+  else if (mod == 4){
+  $("#topping4").css("visibility", "visible");
+  }
+  else if (mod == 5){
+  $("#topping5").css("visibility", "visible");
+  }
+  else if (mod == 6){
+  $("#topping3").css("visibility", "visible");
+  }//end else if
+}//end for
 }//end Functions
 
 function randomRamen(){
