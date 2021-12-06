@@ -71,18 +71,14 @@ button#random{
     background-repeat: no-repeat;
     background-size: contain;
     top: 19%;
-<<<<<<< HEAD
     left: 45%;
-=======
-    left: 30.5%;
->>>>>>> 53b547fc352fdce8e15f2330bc3f1ba49a6c71fc
     width: 5.5%;
     height: 24%;
     position: absolute;
 
 }
 
-button#credits{
+button#reset{
   background-color: #4CAF50;
   /* background-color: transparent; */
     border: none;
@@ -109,7 +105,7 @@ button#credits{
 
 div#output{
 border: 3px solid #73AD00;
-background-image: url("../img/bowl_2.png");
+background-image: url("../img/emptyRamenBowl.png");
 background-repeat: no-repeat;
 background-size: contain;
 top: 400px;
@@ -221,43 +217,6 @@ overflow: scroll;
 
 }
 
-/*
-div#health{
-  border: 3px solid #73AD00;
-  position: absolute;
-  right: 0%;
-  left:90%;
-  top: 10px;
-  width: 120px;
-  height: 220px;
-  background-image: url("../img/ramenShopLantern.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  padding: 5px 6px;
-
-
-<<<<<<< HEAD
-
-
-} */
-=======
-}
->>>>>>> 53b547fc352fdce8e15f2330bc3f1ba49a6c71fc
-
-/* p#health{
-border: 3px solid #73AD21;
-width: 86%;
-height: 180px;
-position: absolute;
-top: 10%;
-left: 8%;
-display: inline-block;
-overflow: hidden;
-color: white;
-scroll-behavior: smooth;
-overflow: scroll;
-} */
 
 img#topping3{
   left: 100px;
