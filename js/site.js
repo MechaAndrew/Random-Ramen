@@ -56,7 +56,7 @@ var soupfacts = "Health Facts<br>";
 
 //Randomly choose which broth
 function randomBroth(){
-  mod = Math.floor(Math.random() * 2) + 1;
+  mod = Math.floor(Math.random() * 3) + 1;
 $("#broth" + mod).css("visibility", "visible");
 facts += broths[mod-1];
 soupfacts += nutrition[mod-1];
