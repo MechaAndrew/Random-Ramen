@@ -17,7 +17,7 @@
 
 #background .stonepath {
   background-image: url("../img/stonePath.png");
-    border: 3px solid #73AD77;
+    /* border: 3px solid #73AD77; */
   position: absolute;
   top: 90%;
   width: auto;
@@ -41,7 +41,11 @@ img.menu {
 /* margin: 50 0 0 -100px; */
 
   overflow: hidden;
+}
 
+.credits{
+    background-color: #4CAF50;
+    z-index: 7;
 }
 
 #background .DirtGround {
@@ -316,24 +320,6 @@ button#placeholder{
 
 }
 
-div#output{
-border: 3px solid #73AD00;
-background-image: url("../img/bowl_1.png");
-background-repeat: no-repeat;
-background-size: contain;
-top: 34%;
-left: 44.5%;
-width: 12%;
-height: 20%;
-position: absolute;
-
-display: block;
-resize: both;
-margin: auto;
-margin-top: 48px;
-
-}
-
 img#lantern1 {
   top: 15%;
     left: 18%;
@@ -356,6 +342,19 @@ img#lantern2 {
   margin: auto;
   margin-top: 48px;
   z-index: 2;
+}
+
+div#output{
+/* border: 3px solid #73AD00; */
+background-image: url("../img/bowl_1.png");
+background-repeat: no-repeat;
+background-size: contain;
+top: 300px;
+left: 44.5%;
+width: 200px;
+height: 160px;
+position: fixed;
+/* position: absolute; */
 }
 
 img.noodle{
@@ -494,115 +493,116 @@ overflow: scroll;
 }
 
 
-
 img#topping1{
-  left: 100px;
+  top: 45px;
+  left: 40px;
 }
-
 img#topping2{
+  top: 40px;
   left: 50px;
 }
-
 img#topping3{
-  left: 100px;
+  top: 40px;
 }
-
 img#topping4{
-  left: 100px;
+  top: 40px;
+  left: 56px;
 }
-
 img#topping5{
-  left: 100px;
+  top: 45px;
+  left: 59px;
 }
-
 img#topping6{
-  left: 100px;
+  top: 50px;
+  left: 35px;
 }
-
 img#topping7{
-  left: 100px;
+  top: 40px;
+  left: 50px;
 }
-
 img#topping8{
-  left: 100px;
+  top: 50px;
+  left: 45px;
 }
-
 img#topping9{
-  left: 100px;
+  top: 40px;
+  left: 40px;
 }
-
 img#topping10{
-  left: 100px;
+  top: 40px;
+  left: 55px;
 }
-
 img#topping11{
-  left: 100px;
+  top: 45px;
+  left: 38px;
 }
-
 img#topping12{
-  left: 100px;
+  top: 40px;
+  left: 59px;
 }
-
 img#topping13{
-  left: 100px;
+  top: 50px;
+  left: 48px;
 }
-
 img#topping14{
-  left: 100px;
+  top: 50px;
+  left: 53px;
 }
-
 img#topping15{
-  left: 100px;
+  top: 40px;
+  left: 43px;
 }
-
 img#topping16{
-  left: 100px;
+  top: 45px;
+  left: 52px;
 }
-
 img#topping17{
-  left: 100px;
+  top: 40px;
+  left: 55px;
 }
 img#topping18{
-  left: 100px;
+  top: 40px;
+  left: 44px;
 }
-
 img#topping19{
-  left: 100px;
+  top: 40px;
+  left: 43px;
 }
-
 img#topping20{
-  left: 100px;
+  top: 40px;
+  left: 32px;
 }
-
 img#topping21{
-  left: 100px;
+  top: 45px;
+  left: 47px;
 }
-
 img#topping22{
-  left: 100px;
+  top: 40px;
+  left: 41px;
 }
-
 img#topping23{
-  left: 100px;
+  top: 50px;
+  left: 59px;
 }
-
 img#topping24{
-  left: 100px;
+  top: 55px;
+  left: 51px;
 }
 img#topping25{
-  left: 100px;
+  top: 40px;
+  left: 49px;
 }
-
 img#topping26{
-  left: 100px;
+  top: 55px;
+  left: 34px;
 }
-
 img#topping27{
-  left: 100px;
+  top: 50px;
+  left: 40px;
 }
-
 img#topping28{
-  left: 100px;
+  top: 45px;
+  left: 63px;
 }
 
 /* width */
