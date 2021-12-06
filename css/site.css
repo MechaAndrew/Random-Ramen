@@ -2,7 +2,7 @@
   /*background-image: url(https://static.wikia.nocookie.net/dragonball/images/5/50/Wiki-background/revision/latest);*/
   /*background-image: url(https://vvnzheng.github.io/art101/lab10/index.html);*/
   /* background-image: url("../img/BGMerge.png"); */
-  background-image: url("../img/finaldesign.png");
+  /* background-image: url("../img/finaldesign.png"); */
 
   position: relative;
 
@@ -13,6 +13,28 @@
   /* background-size: auto; */
   /* padding: 500px 100px; */
 }
+
+#background .stonepath {
+    /* border: 3px solid #73AD77; */
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  z-index: -1;
+
+}
+#background .DirtGround {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  z-index: 0;
+}
+#background .wallbackground {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  z-index: -2;
+}
+
 
 
 .layout{
