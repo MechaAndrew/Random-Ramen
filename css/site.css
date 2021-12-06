@@ -20,7 +20,7 @@
     /* border: 3px solid #73AD77; */
   position: absolute;
   top: 90%;
-  width: auto;
+  width: 100%;
   height: 200%;
   z-index: -1;
   margin: auto;
@@ -43,10 +43,20 @@ img.menu {
   overflow: hidden;
 }
 
-.credits{
+div.credits{
     background-color: #4CAF50;
-    z-index: 7;
+    z-index: 8;
+    border: 3px solid #73AD77;
+    font-size: 100%;
+    position: absolute;
+    /* top: 54%; */
+    margin-top: 58%;
+    margin-left: 13%;
+    margin-right: 13%;
+
 }
+
+
 
 #background .DirtGround {
   position: absolute;
@@ -323,7 +333,7 @@ button#placeholder{
 img#lantern1 {
   top: 20%;
     left: 18%;
-    width: auto;
+    width: 8%;
     max-height: 20%;
     /* background-color: #4CAF50; */
   position: absolute;
@@ -338,7 +348,7 @@ img#lantern1 {
 img#lantern2 {
   top: 20%;
     left: 74%;
-    width: auto;
+    width: 8%;
     max-height: 20%;
     /* background-color: #4CAF50; */
   position: absolute;
@@ -365,20 +375,13 @@ width: 12.8%;
 height: 22%;
 
 position: absolute;
-
-/* display: block; */
 resize: both;
 margin: auto;
-/* margin-top: 23%; */
-
-/* border: transparent; */
 
 position: absolute;
-
-
-
-/* position: absolute; */
 }
+
+
 
 img.noodle{
   width: 102%;
