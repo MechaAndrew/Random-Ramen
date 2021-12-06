@@ -34,10 +34,10 @@ function toppingNumber(){
 }
   //randomly pick the topings
 function randomToppings(numbers){
-
   for(i=0; i<=numbers; i++) {
   mod = Math.floor(Math.random() * (29-1)) + 1;
-  console.log(Math.floor(Math.random() * (29-1)) + 1);
+  console.log(mod);
+  // console.log(Math.floor(Math.random() * (29-1)) + 1);
   $("#topping" + mod).css("visibility", "visible");
   //implement a way so the toppings aren't repeated
 }//end for
