@@ -30,8 +30,6 @@ img.building{
   width: 57%;
 }
 
-
-
 button#create{
   background-color: #4CAF50;
   /* background-color: transparent; */
@@ -105,12 +103,6 @@ button#reset{
 }
 
 
-#credits{
-  position: relative;
-  top: 100px;
-  left: 250px;
-}
-
 div#output{
 border: 3px solid #73AD00;
 background-image: url("../img/emptyRamenBowl.png");
@@ -156,13 +148,17 @@ img#topping2{
 
 
 div#history{
-  /* border: 3px solid #73AD00; */
+  border: 3px solid #73AD00;
   position: absolute;
   /* left: 1%; */
-  top: 10px;
-  width: 120px;
-  height: 220px;
-  background-image: url("../img/ramenShopLantern.png");
+  top: 19%;
+  left: 14%;
+  width: 10vh;
+  height: 10vh;
+  position: absolute;
+  /* width: 120px;
+  height: 600px; */
+  background-image: url("../img/HistoryBanner.png");
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -185,16 +181,6 @@ overflow: scroll;
 
 }
 
-/* div#health{
-  border: 3px solid #73AD21;
-  position: absolute;
-  left: 90%;
-  top: 10%;
-  width: 10%;
-  height: 200px;
-
-
-} */
 
 div#health{
   /* border: 3px solid #73AD00; */
@@ -227,7 +213,108 @@ overflow: hidden;
 color: white;
 scroll-behavior: smooth;
 overflow: scroll;
+}
 
++img#topping3{
+  left: 100px;
+}
+
+img#topping4{
+  left: 100px;
+}
+
+img#topping5{
+  left: 100px;
+}
+
+img#topping6{
+  left: 100px;
+}
+
+img#topping7{
+  left: 100px;
+}
+
+img#topping8{
+  left: 100px;
+}
+
+img#topping9{
+  left: 100px;
+}
+
+img#topping10{
+  left: 100px;
+}
+
+img#topping11{
+  left: 100px;
+}
+
+img#topping12{
+  left: 100px;
+}
+
+img#topping13{
+  left: 100px;
+}
+
+img#topping14{
+  left: 100px;
+}
+
+img#topping15{
+  left: 100px;
+}
+
+img#topping16{
+  left: 100px;
+}
+
+img#topping17{
+  left: 100px;
+}
+img#topping18{
+  left: 100px;
+}
+
+img#topping19{
+  left: 100px;
+}
+
+img#topping20{
+  left: 100px;
+}
+
+img#topping21{
+  left: 100px;
+}
+
+img#topping22{
+  left: 100px;
+}
+
+img#topping23{
+  left: 100px;
+}
+
+img#topping24{
+  left: 100px;
+}
+img#topping25{
+  left: 100px;
+}
+
+img#topping26{
+  left: 100px;
+}
+
+img#topping27{
+  left: 100px;
+}
+
+img#topping28{
+  left: 100px;
 }
 
 /* width */
