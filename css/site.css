@@ -71,14 +71,18 @@ button#random{
     background-repeat: no-repeat;
     background-size: contain;
     top: 19%;
+<<<<<<< HEAD
     left: 45%;
+=======
+    left: 30.5%;
+>>>>>>> 53b547fc352fdce8e15f2330bc3f1ba49a6c71fc
     width: 5.5%;
     height: 24%;
     position: absolute;
 
 }
 
-button#reset{
+button#credits{
   background-color: #4CAF50;
   /* background-color: transparent; */
     border: none;
@@ -105,7 +109,7 @@ button#reset{
 
 div#output{
 border: 3px solid #73AD00;
-background-image: url("../img/emptyRamenBowl.png");
+background-image: url("../img/bowl_2.png");
 background-repeat: no-repeat;
 background-size: contain;
 top: 400px;
@@ -233,9 +237,13 @@ div#health{
   padding: 5px 6px;
 
 
+<<<<<<< HEAD
 
 
 } */
+=======
+}
+>>>>>>> 53b547fc352fdce8e15f2330bc3f1ba49a6c71fc
 
 /* p#health{
 border: 3px solid #73AD21;
