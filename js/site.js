@@ -30,10 +30,6 @@ function toppingNumber(){
     return 3;
   }  else if (mod == 4) {
     return 4;
-  }  else if (mod == 5) {
-    return 5;
-  }  else if (mod == 6) {
-    return 6;
   }
 }
   //randomly pick the topings
