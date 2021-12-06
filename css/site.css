@@ -8,7 +8,7 @@
 
   /* background-image: url("../img/ramenShopBGtable.png"); */
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   /* position: fixed; */
   /* background-size: auto; */
   /* padding: 500px 100px; */
@@ -21,13 +21,15 @@
   padding-left: 4%;
   padding-right: 4%;
 }
+
 img.building{
   border: 3px solid #73AD00;
   display: block;
   resize: both;
   position: relative;
   margin: auto;
-  width: 57%;
+  margin-top: 50px;
+  width: 65%;
 }
 
 button#create{
@@ -46,10 +48,10 @@ button#create{
     background-image: url("../img/Flap1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    top: 19%;
-    left: 30%;
+    top: 25%;
+    left: 31%;
     width: 5.5%;
-    height: 24%;
+    height: 20%;
     position: absolute;
 
 }
@@ -70,10 +72,10 @@ button#random{
     background-image: url("../img/Flap2.png");
     background-repeat: no-repeat;
     background-size: contain;
-    top: 19%;
-    left: 45%;
+    top: 25%;
+    left: 47%;
     width: 5.5%;
-    height: 24%;
+    height: 20%;
     position: absolute;
 
 }
@@ -94,10 +96,10 @@ button#reset{
     background-image: url("../img/Flap3.png");
     background-repeat: no-repeat;
     background-size: contain;
-    top: 19%;
-    left: 65%;
+    top: 25%;
+    left: 64%;
     width: 5.5%;
-    height: 24%;
+    height: 20%;
     position: absolute;
 
 }
@@ -153,7 +155,7 @@ div#history{
   position: absolute;
   /* left: 1%; */
   top: 5%;
-  left: 12%;
+  left: 5%;
   width: 12%;
   height: 85%;
   position: absolute;
@@ -167,12 +169,12 @@ div#history{
 
 p#history{
 /* border: 3px solid #73AD21; */
-border: transparent;
-width: 67%;
-height: 62%;
+/* border: transparent; */
+width: 70%;
+height: 58%;
 position: absolute;
 top: 3%;
-left: 2%;
+left: 7%;
 /* left: 8%; */
 display: inline-block;
 overflow: hidden;
@@ -188,7 +190,7 @@ div#health{
   position: absolute;
   /* left: 1%; */
   top: 5%;
-  right: 9%;
+  right: 3%;
   width: 12%;
   height: 85%;
   position: absolute;
@@ -202,13 +204,12 @@ div#health{
 
 p#health{
 /* border: 3px solid #73AD21; */
-border: transparent;
-width: 67%;
-height: 62%;
+/* border: transparent; */
+width: 68%;
+height: 55%;
 position: absolute;
 top: 3%;
-left: 20%;
-/* left: 8%; */
+right: 6%;
 display: inline-block;
 overflow: hidden;
 color: white;
