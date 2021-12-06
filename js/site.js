@@ -116,7 +116,12 @@ function randomRamen(){
   $("#health p").html(soupfacts);
   facts = "Dish Facts<br>";
    soupfacts = "Health Facts<br>";
+   $(".smoke").css("visibility", "visible");
   $("#output").css("transform", "scale(1.5)");
+
+    // $("#output").css("border-radius", "100%");
+      // $("#output").css("border-width", "1px");
+  // $("#output").css("box-shadow", "0 0 50px 30px #fff");
 
 }
 
@@ -157,6 +162,7 @@ $("#health p").html("Health Facts<br>");
 facts = "Dish Facts<br>";
 soupfacts = "Health Facts<br>";
 $("#output").css("transform", "scale(1)");
+$(".smoke").css("visibility", "hidden");
 });
 
 creditsButton.click(function() {});

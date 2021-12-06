@@ -373,7 +373,7 @@ img#lantern2 {
 div#output{
 
 z-index: 6;
-background-image: url("../img/bowl_1.png");
+background-image: url("../img/bowl_2.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -389,6 +389,17 @@ resize: both;
 margin: auto;
 
 position: absolute;
+}
+
+img.smoke {
+  width: 102%;
+  height: auto;
+margin: auto;
+  top: -7%;
+  /* transform: translate(0px, -20%); */
+  position: absolute;
+/* padding: 10px; */
+  visibility: hidden;
 }
 
 
