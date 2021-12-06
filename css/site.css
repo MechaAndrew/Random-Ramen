@@ -8,24 +8,25 @@
 
   /* background-image: url("../img/ramenShopBGtable.png"); */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   /* position: fixed; */
   /* background-size: auto; */
   /* padding: 500px 100px; */
 }
 
-/* .background {
-  object-fit: fill;
-  position: absolute;
 
-} */
-
+.layout{
+  padding-top:  2%;
+  padding-left: 3%;
+  padding-right: 4%;
+}
 img.building{
   border: 3px solid #73AD00;
+  display: block;
   resize: both;
   position: relative;
   margin: auto;
-  width: 55%;
+  width: 57%;
 }
 
 div#test {
@@ -36,18 +37,16 @@ height: 500px;
 
 div#create{
 border: 3px solid #73AD00;
-display: inline;
 background-image: url("../img/Flap1.png");
 background-repeat: no-repeat;
 background-size: contain;
-top: 10px;
-left: 15%;
-width: 105px;
-height: 220px;
-position: fixed;
-
-
+top: 19%;
+left: 30%;
+width: 5.5%;
+height: 24%;
+position: absolute;
 }
+
 button#create{
   /* background-color: #4CAF50; */
   background-color: transparent;
@@ -71,10 +70,10 @@ display: inline;
 background-image: url("../img/Flap2.png");
 background-repeat: no-repeat;
 background-size: contain;
-top: 10px;
-left: 30%;
-width: 105px;
-height: 220px;
+top: 19%;
+left: 45%;
+width: 5.5%;
+height: 24%;
 position: absolute;
 
 
@@ -91,8 +90,8 @@ button#random{
     font-size: 16px;
     cursor: pointer;
     position: relative;
-    width: 105px;
-    height: 220px;
+    width: 5%;
+    height: 5%;
 
 }
 
@@ -102,10 +101,10 @@ display: inline;
 background-image: url("../img/Flap3.png");
 background-repeat: no-repeat;
 background-size: contain;
-top: 10px;
-left: 40%;
-width: 105px;
-height: 220px;
+top: 19%;
+left: 65%;
+width: 5.5%;
+height: 24%;
 position: absolute;
 
 
