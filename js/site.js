@@ -118,23 +118,11 @@ function randomRamen(){
    soupfacts = "Health Facts<br>";
    $(".smoke").css("visibility", "visible");
   $("#output").css("transform", "scale(1.5)");
-  // $("#output").css("border-radius", "100%");
-  // $("#output img").css("box-shadow", "inset 0 10px 100px #fff");
-    // $("#output").css("box-shadow", "0 0 10px 10px #fff");
 
-    // $("#output").css("border-radius", "100%");
-      // $("#output").css("border-width", "1px");
-  // $("#output").css("box-shadow", "0 0 50px 30px #fff");
 
 }
 
 //----------------------------------------------------------------------------------------------------------------------
-//finds specific button elements and assigns them a variable
-
-// var createButton = document.getElementById("create");
-// var randomButton = document.getElementById("random");
-// var settingsButton = document.getElementById("settings");
-// var creditsButton = document.getElementById("credits");
 
 var createButton = $("#create");
 var randomButton = $("#random");
